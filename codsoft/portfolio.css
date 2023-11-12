@@ -1,0 +1,546 @@
+
+*{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+   }
+   .outline{
+  border: 2px solid rgb(4, 252, 211);
+  margin: 15px;
+  box-shadow: 0px 20px 28px rgb(20, 123, 99),0px 10px 10px rgb(4, 248, 199)  ;
+     border-radius: 2%;
+   }
+   
+ nav ul li a{
+                          color: rgb(32, 220, 154);
+                          font-size:x-large;
+                          font-weight: 700;
+                          text-decoration: none;
+                          text-shadow: 0px 0px 10px  rgb(2, 63, 50);
+                          text-transform: lowercase;
+                          margin-top: 10px;
+                        
+                          
+   }
+   nav ul li a:hover{
+                          color:#11633d ;
+                          font-size:x-large;
+                          font-weight: 700;
+                          text-decoration: none;
+                          text-shadow: 0px 0px 10px rgb(15, 248, 163);
+                          text-transform: lowercase;
+                          margin-top: 10px;
+                          
+   }
+   .body{
+                          background-image: url('codsoftpic/6.jpg');
+                          background-position: center;
+                          background-repeat: no-repeat;
+                          background-attachment: scroll;
+                          background-size:cover;
+   }
+   
+  
+   
+   .hero{
+        position: relative;
+        margin-left:250px;
+        margin-right: 100px;
+        align-items: center;
+        margin-top: 10px;
+        
+       
+       
+   }
+   
+  
+ nav{
+          display: flex;
+          width: 80%;
+          justify-content: space-evenly;
+          margin-top: 25px;
+          
+          padding-right: 70px;
+          
+        }
+        nav ul li{
+          display: inline-block;
+          list-style: none;
+          margin: 10px 20px;
+        
+        
+        }
+        .detail{
+          margin-left: 20%;
+          margin-top: 8%;
+          
+        }
+        .detail h1{
+          color: rgb(5, 56, 42);
+          margin-right: 43px;
+          text-shadow: 0px 0px 10px  rgb(111, 181, 154);
+          margin-bottom: 15px;
+          margin-top: 10px;
+         
+          
+        }
+          .detail h4{
+               color: rgb(3, 36, 7);
+               margin-right: 43px;
+               text-shadow: 0px 0px 10px  rgb(21, 149, 130);
+               margin-left: 160px;
+               margin-top: 30px;
+          }
+          
+       .detail h2{
+                    color: rgb(6, 163, 95);
+                    margin-right: 43px;
+                    text-shadow: 0px 0px 10px  rgb(5, 60, 40);
+                    margin-left: 100px;
+                    margin-top: 10px;
+                    
+        }
+
+
+        span{
+          color: rgb(7, 159, 73);
+          text-shadow: 0px 0px 10px  rgb(1, 38, 20);
+                    
+        }
+
+
+        .detail p{
+          color: rgb(20, 161, 100);
+        }
+        .hero h3{ 
+          color: rgb(4, 56, 40);
+         font-display: center;
+         font-size: xx-large;
+         text-shadow: 0px 1px 10px rgb(8, 236, 202);
+         margin-left: 310px;
+         border-radius: 70px;
+         border: 2px rgb(21, 213, 165) solid;
+         background-color: rgb(8, 106, 78);
+         margin-right: 500px;
+         padding: 10px;
+         margin-top: 50px;
+         
+  
+     }
+     .detail a{
+          color: #08f3db;
+          border-radius: 40%;
+          text-decoration: none;
+          border: 2px solid #07f2a7;
+          background-color: #0b4f2f;
+          padding: 10px;
+          margin-left: 140px;
+          margin-top: 50px;
+       top: 30;
+      box-shadow: 0px 4px rgb(4, 248, 199)  ;
+   
+          
+     }
+     .pic{
+          border: solid 2px rgb(5, 247, 235);
+          margin-bottom: 90px;
+          margin-right:250px;
+          box-shadow:2px solid  #08f3db;
+          
+          background-attachment: fixed;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 220px;
+          height: 280px;
+          margin-left: 600px;
+          position: absolute;
+          bottom: 0;
+          right: 100px;
+          border-radius: 50%;
+          margin-top: 200px;
+        
+          
+          
+          border: 3px darkgrey solid;
+     }
+      #about{
+        margin-top: 100px;
+      }
+
+     .about{
+      display: flex;
+      justify-content: center;
+      align-items:center;
+    border: #013726 2px solid;
+      margin-top: 300px;
+      padding-bottom: 150px;
+      padding-top: 100px;
+      margin-left: 50px;
+      margin-right: 50px;
+      box-shadow: 0px 20px 28px rgb(4, 223, 172),0px 10px 10px rgb(4, 248, 199)  ;
+     }
+     .about-img{
+      border: solid 2px rgb(5, 247, 235);
+          
+          box-shadow:2px solid  #08f3db;
+          box-shadow: 0px 20px 28px rgb(23, 126, 102),0px 10px 10px rgb(4, 248, 199)  ;
+    
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 320px;
+    height: 420px;
+    margin-right: 750px;
+    margin-top: 70px;
+    position: absolute;
+ 
+  
+    border-radius: 20%;
+    
+     }
+     .about-content{
+      margin-left: 450px;
+      margin-right: 50;
+     }
+     .heading{
+     
+      
+      color: rgb(4, 56, 40);
+      font-display: center;
+      font-size: xx-large;
+      text-shadow: 0px 1px 10px rgb(8, 236, 202);
+     
+      border-radius: 70px;
+      border: 2px rgb(21, 213, 165) solid;
+      background-color: rgb(8, 106, 78);
+      margin-right: 570px;
+      padding: 10px;
+      margin-bottom: 28px;
+      
+     }
+    
+     .fd{
+      margin-bottom: 2px;
+      color: #07f2a7;
+      margin-left: 5px;
+     }
+     
+     .about-p{
+      color: rgb(122, 219, 189);
+      font-size: x-large;
+      text-shadow: 0px 1px 10px rgb(13, 39, 35);
+     }
+     .skill h1{
+         align-items: center;
+         margin-left: 180px;
+         color: #032f21;
+         text-shadow: 0px 3px 3px rgb(0, 11, 9) ;
+         
+     }
+    .skill h3{
+      margin: 5px;
+
+      color: #013726;
+         text-shadow: 0px 1px 3px rgb(2, 40, 31) ;
+     }
+     .skill{
+      width: 500px;
+      margin: 60px auto;
+      color: #061310;
+      padding: 20px;
+      box-shadow: 0px 20px 28px rgb(3, 248, 219),0px 10px 10px rgb(10, 98, 81)  ;
+      background-color: #28ae79;
+      border: solid rgb(1, 42, 21) 2px;
+      margin-top: 200px;
+      border-radius: 100px 0px 100px 0px;
+     }
+     .skill li{
+      margin: 20px 0;
+      padding: 10px;
+     }
+     .bar{
+      background: #134839;
+      display: block;
+      height: 15px;
+      border-radius: 10px;
+      border: 2px rgb(25, 223, 190) solid;
+      box-shadow: 0px 1px 3px rgba(42, 114, 96, 0.886),0px 1px 3px rgba(27, 126, 101, 0.876)  ;
+          overflow: hidden;
+      
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+     }
+     .bar:hover{
+      
+      box-shadow: 0px 14px 28px rgba(7, 131, 115, 0.354),0px 10px 10px rgba(5, 190, 222, 0.206)  ;
+     }
+    .bar span{
+      height: 15px;
+      float: left;
+      background: linear-gradient(135deg,rgb(39, 8, 8))0%,rgb(126, 92, 7)100%;
+    }
+    .html{
+      width: 97%;
+      animation: html 3s;
+      background-color: aqua;
+    }
+    .css{
+      width: 95%;
+      animation: css 3s;
+      background-color: aqua;
+    }
+    
+    .javascript{
+      width: 85%;
+      animation: javascript 3s;
+      background-color: aqua;
+    }
+    .bootstrap{
+      width: 70%;
+      animation: php 3s;
+      background-color: aqua;
+    }
+   @keyframes html{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 90%;
+    }
+   }
+      
+    
+   @keyframes css{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 70%;
+    }
+   }
+      
+   
+   @keyframes javascript{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 58%;
+    }
+   }
+      
+
+   @keyframes bootstrap{
+    0%{
+      width: 0%;
+    }
+    100%{
+      width: 40%;
+    }
+   }
+    
+
+
+   .block{
+    display: flex;
+    
+   }
+  
+  .color-container {
+    border-color: rgb(163, 163, 163);
+    background: rgb(250, 250, 250);
+   
+  
+     
+               
+  }
+  
+  .project-img {
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+    border: 3px solid darkgreen;
+    
+  }
+  
+  .project-title-p {
+    margin: 1rem;
+    color:#013726;
+    text-shadow: #042c1f;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+    
+  }
+  
+  .project-btn {
+    color:#032616;
+    border-color: #032616;
+  background-color: #07f2a7;
+  
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+
+  .project{
+    
+  margin: 300px;
+  padding: 20px;
+  
+  
+    
+  }
+  .p-h1{
+    align-items: center;
+    margin-left: 200px;
+padding-bottom: 50px;
+    
+    color: #032f21;
+    text-shadow: 0px 3px 3px rgb(0, 11, 9) ;
+
+  }
+  #project{
+    
+    margin-top: -200px;
+  }
+   
+
+   .contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-image: url('codsoftpic/6.jpg');
+    
+}
+
+.contact-info,
+.contact-form {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+.contact-info h2,
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 28px;
+
+
+    color: rgb(32, 220, 154);
+    font-size:x-large;
+    font-weight: 700;
+    
+    text-shadow: 0px 0px 10px  rgb(4, 248, 179);
+    text-transform:uppercase;
+  
+  
+    
+
+}
+
+.contact-form form {
+    text-align: center;
+}
+
+.contact-form label,
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+.contact-form button {
+    background-color: rgb(5, 77, 51);
+    color: rgb(6, 243, 164);
+    text-decoration: none;
+    border: 2px solid  rgb(6, 243, 164);
+    font-weight: bold;
+    transform: 4s;
+    padding: 10px 0px;
+    text-shadow: 0px 0px 10px  rgb(4, 248, 179);
+    box-shadow: 0px 5px 10px  rgb(4, 248, 179);
+    border-radius: 30%;
+}
+
+.contact-form button:hover {
+  background-color: rgb(17, 219, 145);
+    color: rgb(8, 90, 63);
+    border: 2px solid rgb(21, 92, 49);
+    cursor: pointer;
+    text-shadow: 0px 0px 10px  rgb(19, 136, 103);
+    box-shadow: 0px 5px 10px  rgb(4, 115, 83);
+    border-radius:30%;
+}
+
+.contact-form label {
+    text-align: left;
+    color: rgb(3, 32, 16);
+    text-shadow: 0px 0px 10px  rgb(19, 146, 110);
+
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+}
+
+.contact-info p {
+    padding: 15px;
+
+}
+
+.footer {
+
+    background-color: rgb(2, 61, 35);
+    padding: 20px ;
+}
+
+.footer h5{
+    
+    font-size: 25px;
+       text-align: center;
+    color: rgb(232, 227, 219);
+
+}
+
+.resume h1{
+  align-items: center;
+  margin-left:45%;
+  color: #032f21;
+  text-shadow: 0px 3px 3px rgb(0, 11, 9) ;
+  font-weight: 700;
+  font-size: xx-large;
+  margin-top: 50px;
+} 
+#resume{
+  margin-top: -270px;
+}
+.resume{
+ padding-bottom: 100px;
+ 
+ 
+}
+.resume-a{
+  align-items: center;
+  margin-left:40%;
+ margin-top: 40px;
+
+} 
+.resume a{
+  align-items: center;
+  padding: 20px;
+  color: #032f21;
+  text-shadow: 0px 3px 3px rgb(0, 11, 9) ;
+  border: 1px solid rgb(35, 12, 12);
+  font-size: x-large;
+  border-radius: 20%;
+  text-decoration: none;
+  background-color: #07f2a7;
+}
